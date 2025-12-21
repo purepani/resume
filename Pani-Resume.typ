@@ -35,9 +35,11 @@
         - Investigate methods of 3D surface scanning for clinical use using LIDAR and laser scanning.
         - Automate simulated phantom generation and CT generation using Python and the XCAT Phantom.
         - Built Excel tools to streamline creation of Patient Specific QA task emails.
-        - Mentored project to rewrite an excel generator for Patient Specific QA in Python. 
+        - Mentored project to rewrite an excel generator for Patient Specific QA in Python.
         - Assisted in commissioning of a Varian Halcyon linear accelerator.
         - Contribute to open source software, including pylinac and the Core Imaging Library. 
+        - Automated output factor measurements using Sun Nuclear PC Electrometer, reducing the measurement time from 2 hours to 40 minutes. 
+        - Generated dicoms for automated output factor measurements for both Halycon and Truebeams using pydicom.
       ],
     )
 
@@ -48,7 +50,7 @@
       date: "2021-2023",
       description: [
         - Designed and iterated on a printed circuit board for hall effect sensors using KiCad. 
-        - Implemented an algorithm in Python to measure motion of a magnet using hall effect sensors in real time.
+        - Implemented an algorithm in Python to measure motion of a magnet using hall effect sensors in real time using SciPy.
         - Verified accuracy of the system by interfacing with a 3D printer to move the magnet. 
         - Performed quality assurance for diagnostic machines, including X-ray and Fluoroscopy.
         - Prepared monthly reports and schedules for diagnostic imaging quality assurance.
@@ -61,9 +63,8 @@
       location: "Urbana, Illinois",
       date: "2020-2021",
       description: [
-        - Simulated electronic responses for many configurations of an silicon photomultiplier(SiPM) array to add Pulse Shape Discrimination functionality to a commercially available board using Ngspice and Python.
+        - Simulated electronic responses for many configurations of an silicon photomultiplier(SiPM) array to add Pulse Shape Discrimination functionality to a commercially available board using Ngspice and Python. 
         - Collected data from a JSeries SiPM to compare to simulation.
-
       ]
     )
   ],
