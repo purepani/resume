@@ -99,6 +99,7 @@
           # See https://github.com/loqusion/typix/issues/2
           # build-script
           watch-script
+          pkgs.tinymist
           # More packages can be added here, like typstfmt
           # pkgs.typstfmt
         ];

@@ -9,7 +9,7 @@
   address: [4140 Washington Blvd Apt 201, Saint Louis, MO, 63108. United States.],
   lastupdated: "true",
   pagecount: "true",
-  date: "2025-11-25",
+  date: "2026-04-28",
   contacts: (
     (text: [#fa-icon("location-dot") US]),
     (text: [#fa-icon("envelope") panisatwik\@pm.me], link: "mailto:panisatwik@pm.me"),
@@ -40,6 +40,11 @@
         - Contribute to open source software, including pylinac and the Core Imaging Library. 
         - Automated output factor measurements using Sun Nuclear PC Electrometer, reducing the measurement time from 2 hours to 40 minutes. 
         - Generated dicoms for automated output factor measurements for both Halycon and Truebeams using pydicom.
+        - Performed data collection for multiple research projects on a novel delivery 
+            - Developing Varian Developer Mode XML fi tools collect high sample Winston Lutz measurements, reducing time from 3 hours to 1 hour per collection.
+            - Improved efficiency of DLG measurements using the SNC PC Electrometer's logging functionality.
+            - Performed commissioning for novel delivery system, finding suggested improvements and differences from Truebeam.
+            - Collected ion recombination data using PTW BeamScan over a large collection of detectors. 
       ],
     )
 
@@ -58,7 +63,7 @@
     )
 
     #job(
-      position: "Research Assistant",
+      position: "Research Assistantt",
       institution: [University of Illinois at Urbana-Champaign],
       location: "Urbana, Illinois",
       date: "2020-2021",
