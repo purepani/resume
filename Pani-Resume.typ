@@ -6,10 +6,10 @@
   continue-header: "false",
   margin: (left: 1.75cm, right: 1.75cm, top: 2cm, bottom: 2cm),
   name: [Satwik Pani],
-  address: [4140 Washington Blvd Apt 201, Saint Louis, MO, 63108. United States.],
+  address: [4140 Washington Blvd Apt 212, Saint Louis, MO, 63108. United States.],
   lastupdated: "true",
   pagecount: "true",
-  date: "2026-04-28",
+  date: "2026-09-23",
   contacts: (
     (text: [#fa-icon("location-dot") US]),
     (text: [#fa-icon("envelope") panisatwik\@pm.me], link: "mailto:panisatwik@pm.me"),
@@ -26,25 +26,28 @@
       location: "St. Louis, Missouri",
       date: "2023 - Current",
       description: [
-        - Independently perform machine QA for a Varian Truebeam.
-        - Generate patient specific QA for IMRT and SBRT photon treatment plans with Eclipse including ion chamber and portal dosimetry for photon.
+        - Independently perform machine QA for a Varian Truebeam
         - Assisted in performing Annual QA for a Varian Truebeam including recommendations from TG-142 and TG-51.
+        - Generate patient specific QA for IMRT and SBRT photon treatment plans with Eclipse including ion chamber and portal dosimetry for photon.
         - Generated patient specific QA for proton treatment plans with Raystation, including for ion chamber, surface dose plane, and depth dose plane measurements.
-        - Assisting faculty with research.
         - Develop a web-based chart checking script for proton therapy using the Raystation Python API.
         - Investigate methods of 3D surface scanning for clinical use using LIDAR and laser scanning.
         - Automate simulated phantom generation and CT generation using Python and the XCAT Phantom.
         - Built Excel tools to streamline creation of Patient Specific QA task emails.
         - Mentored project to rewrite an excel generator for Patient Specific QA in Python.
-        - Assisted in commissioning of a Varian Halcyon linear accelerator.
+        - Assisted in commissioning of a Varian Halcyon linear
         - Contribute to open source software, including pylinac and the Core Imaging Library. 
         - Automated output factor measurements using Sun Nuclear PC Electrometer, reducing the measurement time from 2 hours to 40 minutes. 
         - Generated dicoms for automated output factor measurements for both Halycon and Truebeams using pydicom.
-        - Performed data collection for multiple research projects on a novel delivery 
-            - Developing Varian Developer Mode XML fi tools collect high sample Winston Lutz measurements, reducing time from 3 hours to 1 hour per collection.
+        - Performed data collection for multiple research projects on the novel Varian Accela
+            - Developed Python tools to quickly generate dicoms and XMLs for this machine.
+            - Generating Varian Developer Mode XML files to collect high sample Winston Lutz measurements, reducing time from 4 hours to 1 hour per collection.
             - Improved efficiency of DLG measurements using the SNC PC Electrometer's logging functionality.
-            - Performed commissioning for novel delivery system, finding suggested improvements and differences from Truebeam.
-            - Collected ion recombination data using PTW BeamScan over a large collection of detectors. 
+            - Performed commissioning for 2 Varian Accelas, finding suggested improvements and differences from Truebeam.
+                - Collected a large set of beam scanning data using a large number of detectors.
+            - Characterization of ion chamber recombination factors over multiple detectors due to a higher dose per pulse.
+            - Performed daily sets of tests using MaximQA.
+            - Performed SRS QA using the SNC Mapcheck, Film, and the W2 detector for dosimetric evaluation of Neo Arc plans.
       ],
     )
 
@@ -63,7 +66,7 @@
     )
 
     #job(
-      position: "Research Assistantt",
+      position: "Research Assistant",
       institution: [University of Illinois at Urbana-Champaign],
       location: "Urbana, Illinois",
       date: "2020-2021",
@@ -100,11 +103,11 @@
   section-block("skills", title: "Skills")[
     #oneline-title-item(
       title: "Programming",
-      content: [Python, Rust, Javascript, Embedded, Sensors],
+      content: [Python, Rust, Embedded, Sensors],
     )
     #oneline-title-item(
       title: "Clinical",
-      content: [Truebeam, Halcyon, Eclipse, Raystation, Doselab, PTW Beamscan, Patient Specific QA, Linear Accelerator QA, Fluoroscopic QA, X-Ray QA],
+      content: [Truebeam, Halcyon, Eclipse, Raystation, Doselab, PTW Beamscan, PTW Starcheck, SNC PC Electrometer, SNC 1D Scanner, SNC SRS Mapcheck, Patient Specific QA, Linear Accelerator QA, Fluoroscopic QA, X-Ray QA],
     )
     #oneline-title-item(
       title: "Software",
