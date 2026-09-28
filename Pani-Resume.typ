@@ -39,6 +39,7 @@
         - Contribute to open source software, including pylinac and the Core Imaging Library. 
         - Automated output factor measurements using Sun Nuclear PC Electrometer, reducing the measurement time from 2 hours to 40 minutes. 
         - Generated dicoms for automated output factor measurements for both Halycon and Truebeams using pydicom.
+        - CT Monthly
         - Performed data collection for multiple research projects on the novel Varian Accela
             - Developed Python tools to quickly generate dicoms and XMLs for this machine.
             - Generating Varian Developer Mode XML files to collect high sample Winston Lutz measurements, reducing time from 4 hours to 1 hour per collection.
@@ -48,6 +49,7 @@
             - Characterization of ion chamber recombination factors over multiple detectors due to a higher dose per pulse.
             - Performed daily sets of tests using MaximQA.
             - Performed SRS QA using the SNC Mapcheck, Film, and the W2 detector for dosimetric evaluation of Neo Arc plans.
+            - 
       ],
     )
 
@@ -82,7 +84,7 @@
       major: [Masters of Science, Medical Physics],
       description: "CAMPEP Accredited\nGPA: 3.5",
       location: "Minneapolis, Minnesota",
-      date: "August, 2021 - October 2025",
+      date: "August, 2021 - October, 2025",
     )
 
     #education(
