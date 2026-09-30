@@ -26,8 +26,8 @@
       location: "St. Louis, Missouri",
       date: "2023 - Current",
       description: [
-        - Independently perform machine QA for a Varian Truebeam
-        - Assisted in performing Annual QA for a Varian Truebeam including recommendations from TG-142 and TG-51.
+        - Independently perform machine QA for a Varian TrueBeam and Siemens CT.
+        - Assists in performing Annual QA for a Varian TrueBeam including recommendations from TG-142 and TG-51.
         - Generate patient specific QA for IMRT and SBRT photon treatment plans with Eclipse including ion chamber and portal dosimetry for photon.
         - Generated patient specific QA for proton treatment plans with Raystation, including for ion chamber, surface dose plane, and depth dose plane measurements.
         - Develop a web-based chart checking script for proton therapy using the Raystation Python API.
@@ -35,21 +35,23 @@
         - Automate simulated phantom generation and CT generation using Python and the XCAT Phantom.
         - Built Excel tools to streamline creation of Patient Specific QA task emails.
         - Mentored project to rewrite an excel generator for Patient Specific QA in Python.
-        - Assisted in commissioning of a Varian Halcyon linear
+        - Assisted in commissioning of a Varian Halcyon linear.
         - Contribute to open source software, including pylinac and the Core Imaging Library. 
-        - Automated output factor measurements using Sun Nuclear PC Electrometer, reducing the measurement time from 2 hours to 40 minutes. 
-        - Generated dicoms for automated output factor measurements for both Halycon and Truebeams using pydicom.
-        - CT Monthly
-        - Performed data collection for multiple research projects on the novel Varian Accela
-            - Developed Python tools to quickly generate dicoms and XMLs for this machine.
-            - Generating Varian Developer Mode XML files to collect high sample Winston Lutz measurements, reducing time from 4 hours to 1 hour per collection.
-            - Improved efficiency of DLG measurements using the SNC PC Electrometer's logging functionality.
-            - Performed commissioning for 2 Varian Accelas, finding suggested improvements and differences from Truebeam.
-                - Collected a large set of beam scanning data using a large number of detectors.
-            - Characterization of ion chamber recombination factors over multiple detectors due to a higher dose per pulse.
-            - Performed daily sets of tests using MaximQA.
-            - Performed SRS QA using the SNC Mapcheck, Film, and the W2 detector for dosimetric evaluation of Neo Arc plans.
-            - 
+        - Automated highly sampled output factor measurements using Sun Nuclear PC Electrometer, reducing the measurement time from 2 hours to 40 minutes. 
+        - Performed data collection for multiple research projects on the novel Varian Accela.
+            - Developed Python tools to generate dicom radiation plans and developer mode XMLs for this machine.
+            - Generating Varian Developer Mode XML files to collect highly sampled Winston Lutz measurements for longitudinal QA, reducing time from 4 hours to 1 hour per collection.
+            - Characterization of ion chamber recombination factors over multiple detectors.
+            - Improved efficiency of cross-institutional DLG measurements using the SNC PC Electrometer.
+            - Evaluated recombination effect in DLG measurements.
+            - Performed longitudinal daily QA using MPC, MaximQA, and SNC Daily QA.
+            - Performed SRS QA using the SNC Mapcheck, Film, and the W2 detector for dosimetric evaluation of Neo Arc.
+            - Performed TG-51 measurements for cross-institutional evaluation of output on the Accela.
+            - Designed and performed measurements for Jaffe plots to evaluate Sun Nuclear detector performance.
+       - Performed commissioning for 2 Varian Accelas.
+            - Collected beam scanning data using a large number of detectors.
+            - Streamlined commissioning using automated dicom radiation plans and the SNC PC Electrometer. 
+            
       ],
     )
 
@@ -109,7 +111,7 @@
     )
     #oneline-title-item(
       title: "Clinical",
-      content: [Truebeam, Halcyon, Eclipse, Raystation, Doselab, PTW Beamscan, PTW Starcheck, SNC PC Electrometer, SNC 1D Scanner, SNC SRS Mapcheck, Patient Specific QA, Linear Accelerator QA, Fluoroscopic QA, X-Ray QA],
+      content: [Truebeam, Halcyon, Accela, Eclipse, Raystation, Doselab, PTW Beamscan, PTW Starcheck, SNC PC Electrometer, SNC 1D Scanner, SNC SRS Mapcheck, Patient Specific QA, Linear Accelerator QA, Fluoroscopic QA, X-Ray QA],
     )
     #oneline-title-item(
       title: "Software",
